@@ -20,7 +20,7 @@ export const Status = styled.span`
   height: 16px;
   border-radius: 50%;
   margin-right: 12px;
-  background: ${span => (span.isOnline ? 'green' : 'red')};
+  background: ${p => (p.isOnline ? 'green' : 'red')};
 `;
 export const FriendAvatar = styled.img`
   border-radius: 50%;
